@@ -1,0 +1,497 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+.patientAppConfig {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 20px;
+}
+.appBar {
+  background: rgba(255, 255, 255, 1);
+  width: 414px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  flex-direction: row;
+  padding-left: 5px;
+  padding-right: 100px;
+  border-radius: 15px;
+}
+.appBar > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 60px);
+  width: calc(100% + 60px);
+}
+.appBar > :global(.__wab_flex-container) > *,
+.appBar > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.appBar > :global(.__wab_flex-container) > picture > img,
+.appBar
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 60px;
+}
+.arrowLeftCircle {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__obw30 {
+  position: absolute;
+  object-fit: cover;
+  width: 38.541px;
+  height: 38.541px;
+  color: #130f26;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(90.0572957604145deg)
+    translate(0.2700000000000031px, -0.2709999999999999px);
+  display: block;
+  transform-origin: top left;
+  top: 6px;
+  left: 44px;
+}
+.headLine {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+}
+.headLine > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.headLine > :global(.__wab_flex-container) > *,
+.headLine > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headLine > :global(.__wab_flex-container) > picture > img,
+.headLine
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+.h1Headline {
+  display: block;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.0125em;
+  line-height: 100%;
+  color: rgba(37, 49, 55, 1);
+  position: relative;
+}
+.settings {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__q0REy {
+  position: absolute;
+  object-fit: cover;
+  color: #130f26;
+  transform: translate(0.29100000000000037px, 0.20800000000000018px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  top: 5px;
+  left: 7px;
+}
+.frame {
+  transform: translate(0px, -0.5px);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 248px;
+  left: 77px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.frame > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 50px);
+  height: calc(100% + 50px);
+}
+.frame > :global(.__wab_flex-container) > *,
+.frame > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame > :global(.__wab_flex-container) > picture > img,
+.frame > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 50px;
+}
+.buttom {
+  background: rgba(246, 246, 251, 1);
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 20px;
+}
+.buttom > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.buttom > :global(.__wab_flex-container) > *,
+.buttom > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttom > :global(.__wab_flex-container) > picture > img,
+.buttom
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.buttomText {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+}
+.buttomText > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.buttomText > :global(.__wab_flex-container) > *,
+.buttomText > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttomText > :global(.__wab_flex-container) > picture > img,
+.buttomText
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.twoTone {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  color: rgba(31, 13, 49, 1);
+  position: relative;
+}
+.addUser {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__nC8AC {
+  position: absolute;
+  object-fit: cover;
+  color: #130f26;
+  transform: translate(-0.1499999999999999px, 0.1499999999999999px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  top: 2px;
+  left: 3px;
+}
+.buttom2 {
+  background: rgba(246, 246, 251, 1);
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 20px;
+}
+.buttom2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.buttom2 > :global(.__wab_flex-container) > *,
+.buttom2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttom2 > :global(.__wab_flex-container) > picture > img,
+.buttom2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.buttomText2 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+}
+.buttomText2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.buttomText2 > :global(.__wab_flex-container) > *,
+.buttomText2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttomText2 > :global(.__wab_flex-container) > picture > img,
+.buttomText2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.twoTone2 {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  color: rgba(31, 13, 49, 1);
+  position: relative;
+}
+.password {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.iconlyCurvedPassword {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg__zv3Jf {
+  position: absolute;
+  object-fit: cover;
+  width: 19.27px;
+  height: 19.27px;
+  color: #130f26;
+  transform: translate(-0.13600000000000012px, -0.13600000000000012px);
+  display: block;
+  top: 3px;
+  left: 3px;
+}
+.rectangle {
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 1);
+  width: 165px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.buttom3 {
+  background: rgba(246, 246, 251, 1);
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 20px;
+}
+.buttom3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.buttom3 > :global(.__wab_flex-container) > *,
+.buttom3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttom3 > :global(.__wab_flex-container) > picture > img,
+.buttom3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.buttomText3 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+}
+.buttomText3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.buttomText3 > :global(.__wab_flex-container) > *,
+.buttomText3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttomText3 > :global(.__wab_flex-container) > picture > img,
+.buttomText3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.twoTone3 {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  color: rgba(31, 13, 49, 1);
+  position: relative;
+}
+.arrowDownCircle {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg___7BUvt {
+  position: absolute;
+  object-fit: cover;
+  width: 19.27px;
+  height: 19.27px;
+  color: #130f26;
+  transform: translate(-0.13600000000000012px, -0.13600000000000012px);
+  display: block;
+  top: 3px;
+  left: 3px;
+}
+.rectangle2 {
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 1);
+  width: 165px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.buttom4 {
+  background: rgba(246, 246, 251, 1);
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 20px;
+}
+.buttom4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.buttom4 > :global(.__wab_flex-container) > *,
+.buttom4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttom4 > :global(.__wab_flex-container) > picture > img,
+.buttom4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.buttomText4 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+}
+.buttomText4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.buttomText4 > :global(.__wab_flex-container) > *,
+.buttomText4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttomText4 > :global(.__wab_flex-container) > picture > img,
+.buttomText4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.twoTone4 {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  color: rgba(31, 13, 49, 1);
+  position: relative;
+}
+.logout {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg___3EEp5 {
+  position: absolute;
+  object-fit: cover;
+  width: 20.347px;
+  height: 19.27px;
+  color: #130f26;
+  transform: translate(0.35199999999999987px, -0.13600000000000012px);
+  display: block;
+  top: 3px;
+  left: 2px;
+}

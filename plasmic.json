@@ -1,0 +1,192 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "i13eimJzTqVDJ7txL3iZyA",
+      "projectName": "Blank project (mobile-first)",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project_mobile_first/plasmic_blank_project_mobile_first.module.css",
+      "components": [
+        {
+          "id": "LJFr6zqv-z",
+          "name": "LoginScreen",
+          "type": "managed",
+          "projectId": "i13eimJzTqVDJ7txL3iZyA",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicLoginScreen.tsx",
+          "importSpec": {
+            "modulePath": "LoginScreen.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicLoginScreen.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "N3vyyAXknm",
+          "name": "HomePage",
+          "type": "managed",
+          "projectId": "i13eimJzTqVDJ7txL3iZyA",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicHomePage.tsx",
+          "importSpec": {
+            "modulePath": "HomePage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicHomePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "3SUJutzDay",
+          "name": "SettingsScreen",
+          "type": "managed",
+          "projectId": "i13eimJzTqVDJ7txL3iZyA",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicSettingsScreen.tsx",
+          "importSpec": {
+            "modulePath": "SettingsScreen.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicSettingsScreen.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "L6I88p1sTt",
+          "name": "HomeWorkButton",
+          "type": "managed",
+          "projectId": "i13eimJzTqVDJ7txL3iZyA",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicHomeWorkButton.tsx",
+          "importSpec": {
+            "modulePath": "HomeWorkButton.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicHomeWorkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "HGpNZE91B3",
+          "name": "ProfileIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Profile.tsx"
+        },
+        {
+          "id": "zH9kLH8lqS",
+          "name": "DangerTriangleIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__DangerTriangle.tsx"
+        },
+        {
+          "id": "EdSL-_sszRW",
+          "name": "PasswordIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Password.tsx"
+        },
+        {
+          "id": "gPNF2i0Oj_9",
+          "name": "LoginIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Login.tsx"
+        },
+        {
+          "id": "ZkOzDLRbb4c",
+          "name": "ArrowRightCircleIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__ArrowRightCircle.tsx"
+        },
+        {
+          "id": "ZVQoLok7Mn",
+          "name": "SettingIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Setting.tsx"
+        },
+        {
+          "id": "n7cyuplJUX",
+          "name": "NotificationIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Notification.tsx"
+        },
+        {
+          "id": "SosGjje1vC",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "vr0xJoldp1S",
+          "name": "ArrowRightCircle2Icon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__ArrowRightCircle2.tsx"
+        },
+        {
+          "id": "AuqRINwL7Zy",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Ellipse2.tsx"
+        },
+        {
+          "id": "1LCBJpbHDZy",
+          "name": "ArrowRightCircle3Icon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__ArrowRightCircle3.tsx"
+        },
+        {
+          "id": "nt0ds6kTqnp",
+          "name": "DocumentIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Document.tsx"
+        },
+        {
+          "id": "f8fRLo_gvW",
+          "name": "ArrowLeftCircleIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__ArrowLeftCircle.tsx"
+        },
+        {
+          "id": "aworLWs9JV",
+          "name": "Setting2Icon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Setting2.tsx"
+        },
+        {
+          "id": "cU6YRA-495",
+          "name": "AddUserIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__AddUser.tsx"
+        },
+        {
+          "id": "zV0aIE_DJQu",
+          "name": "Password2Icon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Password2.tsx"
+        },
+        {
+          "id": "vf27hFmwoQc",
+          "name": "ArrowDownCircleIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__ArrowDownCircle.tsx"
+        },
+        {
+          "id": "j6GIHb6h9Cp",
+          "name": "LogoutIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Logout.tsx"
+        }
+      ],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "TCpVaZzElJ6w5JbXGoaIZd16nFWtJVsVUwUAyGztjXmf5OzvNgmA7orEuMTVTf9N3ouMIMiHmtSVtJFDLGQ"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Qs4hLGxC_R",
+        "name": "Screen",
+        "projectId": "i13eimJzTqVDJ7txL3iZyA",
+        "contextFilePath": "plasmic/blank_project_mobile_first/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.162",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.162/dist/plasmic.schema.json"
+}
